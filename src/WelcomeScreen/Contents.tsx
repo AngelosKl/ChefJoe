@@ -15,12 +15,12 @@ const Contents = () => {
             </div>
             <div className="clickAbles">
                 <div className="row">
-                    <div className="firstClickables">{<AboutMe />}</div>
-                    <div className="firstClickables">{<WorkExperience />}</div>
+                    <div className="firstClickables"><p>about</p></div>
+                    <div className="firstClickables"><p>WorkExp</p></div>
                 </div>
                 <div className="row">
-                    <div className="lastClickables">{<CuisinesAndTechniques />}</div>
-                    <div className="lastClickables">{<Contact />}</div>
+                    <div className="lastClickables"><p>CuisineAndTechniques</p></div>
+                    <div className="lastClickables"><p>contact</p></div>
                 </div>
             </div>
         </div>

@@ -8,16 +8,12 @@ import Contact from "./TheContents/Contact";
 import CuisinesAndTechniques from "./TheContents/CuisineAndTechniques";
 import WorkExperience from "./TheContents/WorkExp";
 import Navbar from "./Navigation/Navbar";
+import Home from "./WelcomeScreen/Home";
 
 function App() {
   return (
     <div className="App">
-      <div className="IoBele">
-        <IoBele />
-      </div>
-      <div>
-        <Contents />
-      </div>
+      <Home />
     </div>
   );
 }
